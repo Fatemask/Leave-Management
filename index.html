@@ -1,36 +1,132 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Animated Login Form</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile Page</title>
+<style>
+	.button {border-radius: 12px;}
+	.button {font-size: 32px;}
+	.button {background-color: #008CBA;}
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+table, th, td {
+  border: 1px solid black;
+}
+img {
+  border-radius: 50%;
+}
+.footer{
+  background-color:gray;
+  text-align: center;
+}
+.header{
+  background-color: gray;
+}
+</style>
+
 </head>
+<body style="background-color:powderblue;">
+ <header class= 'header'><h1>LEAVE MANAGEMENT PROFILE OF PROFESSOR</h1></header>
+ <div class="row">
+  <div class="column">
+    <img src="img.png" width="200" height="200"  >
+  </div>
+  <div class="column">
+    <h2>Dr. H.R. Ghodake</h2>
+        <span>Associate Professor, </span>
+        <span> Computer Department </span><br><br>
+      
+    <button class="button">
+      Edit Profile
+    </button>
+    <button class="button">
+      New Application
+    </button>
+  </div>
+</div>
 
-<body>
-	<img class="wave" src="img/wave.png">
-	<img src="img/waveInvert.png" alt="" class="wave2">
-	<div class="container">
-		<div class="login-content">
-			<form action="index.html">
-				<img src="img/team.svg">
-				<h2 class="title">Welcome</h2>
-				<div class="input-div">
-					<!-- <h5>Username</h5> -->
-					<input type="text" class="input" placeholder="id">
-				</div>
-				<div class="input-div">
-					<!-- <h5>Password</h5> -->
-					<input type="password" class="input" placeholder="password">
-				</div>
-				<a href="#">Forgot Password?</a>
-				<input type="submit" class="btn" value="Login">
-			</form>
-		</div>
-	</div>
-	<!-- <script type="text/javascript" src="js/main.js"></script> -->
+  <!-- break -->
+  <hr class="break" />
+  <div class="body-content">
+
+    
+    <br>
+    <table>
+      <tr>
+        <th>Date of Application</th>
+        <th>Type of Leave</th>
+        <th>From Date</th>
+        <th>To Date</th>
+        <th>Reason</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>15/03/21</td>
+        <td>Half Day</td>
+        <td>15/03/21</td>
+        <td>15/03/21</td>
+        <td>Arrived late to college due to bus strike</td>
+        <td>Pending</td>
+      </tr>
+      <tr>
+        <td>10/03/21</td>
+        <td>Casual Leave</td>
+        <td>25/03/21</td>
+        <td>27/03/21</td>
+        <td>Need leave for Personal reasons</td>
+        <td>Pending</td>
+      </tr>
+      <tr>
+        <td>24/01/21</td>
+        <td>Casual Leave</td>
+        <td>25/09/20</td>
+        <td>26/09/20</td>
+        <td>Need leave for Personal reasons</td>
+        <td>Not Granted</td>
+      </tr>
+      <tr>
+        <td>11/10/20</td>
+        <td>Medical Leave</td>
+        <td>11/10/20</td>
+        <td>15/10/20</td>
+        <td>Suffering from Cold, Cough & Fever</td>
+        <td>Granted</td>
+      </tr>
+      <tr>
+        <td>22/09/20</td>
+        <td>Casual Leave</td>
+        <td>25/09/20</td>
+        <td>26/09/20</td>
+        <td>Need leave for Personal reasons</td>
+        <td>Granted</td>
+      </tr>
+    </table>
+<br>
+  </div>
+</div>
+
+<footer class = 'footer'>
+  All rights reserved @PICT Pune
+</footer>
+
 </body>
-
 </html>
+
+
+
