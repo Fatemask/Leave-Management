@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CollegeDataStyles.xsl"?>
+<virtual-lab>
+    <CollegeData>
+        <collegeName>SCTR'S Pune Institute of Computer Technology</collegeName>
+        <add>College in Pune, Maharashtra</add>
+        <Description>Pune Institute of Computer Technology, is a private unaided engineering college located in Dhankawadi, Pune, India. Established by the Society for Computer Technology and Research, SCTR in 1983. It offers degrees in Information Technology, Computer Engineering and Electronics and Telecommunication Engineering. </Description>
+        <email>https://pict.edu/</email>
+        <Address>Survey No. 27, Near, Trimurti Chowk, Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043</Address>
+    </CollegeData>
+
+</virtual-lab>
