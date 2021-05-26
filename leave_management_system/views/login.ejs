@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animated Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <img class="wave" src="img/dark_wave_top.png" />
+    <img src="img/dark_wave_bottom.png" alt="" class="wave2" />
+    <article class="container">
+      <section class="login-content">
+        <form action="/" method="POST">
+          <header>
+            <img src="img/team.svg" />
+            <h2 class="title">Welcome</h2>
+          </header>
+          <div class="input-div">
+            <!-- <h5>Username</h5> -->
+            <input id="uid" type="text" class="input" placeholder="id"
+            name="uid" value="<%= uid === "" ? '': uid %>" />
+          </div>
+          <div class="input-div">
+            <!-- <h5>Password</h5> -->
+            <input type="password" id="password" class="input"
+            placeholder="password" name="password" value="<%= password === "" ?
+            '': password %>" " />
+          </div>
+          
+          <p>professor<div>
+            <label class="switch">
+              <input type="checkbox" name="hod" id="hod"
+              <%=hod==''?'':'checked'%> />
+              <span class="slider round"></span>
+            </label>
+          </div>hod</p>
+          
+          
+          <input type="submit" class="btn" value="Login" />
+          <!-- <a href="#">Forgot Password?</a> -->
+        </form>
+      </section>
+    </article>
+
+    <footer>
+      <section id="footer-elements">
+        <a href="xml/CollegeData.xml">Contact us</a>
+        <!-- <span>|</span> -->
+        <!-- <a href="/">Help</a> -->
+      </section>
+      <!-- <button>Contact us</button> -->
+    </footer>
+    <script>
+      let err = "<%=error%>";
+      if (err.length > 0) alert(err);
+    </script>
+  </body>
+</html>
