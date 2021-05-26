@@ -1,0 +1,44 @@
+label{
+    /* margin: 5px 0;
+    margin-right: 50px; */
+    text-align: left;
+    margin-top: 15px;
+}
+
+.apply{
+    text-align: left;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    
+}
+
+input , select {
+	border: none;
+	background-color: #f0f0f0;
+	width: 100%;
+	height: 50px;
+	border-radius: 2rem;
+	margin: 0.2rem;
+	padding-left: 1.2rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+textarea{
+    border: none;
+	background-color: #f0f0f0;
+    width: 100%;
+    border-radius: 2rem;
+	margin: 0.2rem;
+	padding-left: 1.2rem;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+}
+
+.btnsub{
+  width: 20%;
+  margin: 20px 0;
+}
