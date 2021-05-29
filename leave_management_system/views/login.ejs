@@ -9,14 +9,31 @@
     />
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <link rel="stylesheet" href="/css/style1.css" />
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
-    <img class="wave" src="img/dark_wave_top.png" />
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav2">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon sticky-top"></span>
+      </button>
+      <a class="navbar-brand leave" href="#">Leave Management System</a>
+      </div>
+      <!-- <a class="navbar-item" style="float: right" href="/">Logout</a> -->
+    </nav>
+    <img class="wave" style="margin-top: 7vh;"  src="img/dark_wave_top.png" />
     <img src="img/dark_wave_bottom.png" alt="" class="wave2" />
-    <article class="container">
+    <article class="container" id="login">
       <section class="login-content">
         <form action="/" method="POST">
           <header>
@@ -35,40 +52,27 @@
             '': password %>" " />
           </div>
           
-          <p>professor<div>
-            <label class="switch">
-              <input type="checkbox" name="hod" id="hod"
-              <%=hod==''?'':'checked'%> />
-              <span class="slider round"></span>
-            </label>
-          </div>hod</p>
-          
+          <div style="display: flex; padding: 30px; margin-left: 40px;">
+            <p><div style="padding-top:15px ;">professor</div>
+              <div style="padding: 0 20px;">
+              <label class="switch">
+                <input type="checkbox" name="hod" id="hod"
+                <%=hod==''?'':'checked'%> />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div style="padding-top:15px ;">hod</div></p>
+          </div>
           
           <input type="submit" class="btn" value="Login" />
           <!-- <a href="#">Forgot Password?</a> -->
         </form>
       </section>
     </article>
+    
     <script>
       let err = "<%=error%>";
       if (err.length > 0) alert(err);
     </script>
-
-       <div class="container-fluid footer" style="margin-top:18vh ;">
-        <div class="row">
-            <div class="col-md-4">
-                <i class="fab fa-instagram social"></i>
-                <i class="fab fa-facebook social"></i>
-                <i class="fab fa-linkedin social"></i>
-                <i class="fab fa-twitter social"></i>
-            </div>
-            <div class="col-md-4">
-                copyright &#169; WTLDEVLOPERS
-            </div>
-            <div class="col-md-4">
-                Privacy | Terms | Guidelines
-            </div>
-        </div>
-    </div>
   </body>
 </html>

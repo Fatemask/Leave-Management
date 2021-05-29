@@ -72,10 +72,10 @@
           <% for(let i = 0; i < leaves.length; i++) {%>
           <tr>
             <th scope="row"><%= i+1%></th>
-            <td><%=leaves[i].date_applied.toLocaleDateString('en-US')%></td>
+            <td><%=leaves[i].date_applied.toLocaleDateString('en-GB')%></td>
             <td><%=leaves[i].subject%></td>
-            <td><%=leaves[i].from.toLocaleDateString('en-US')%></td>
-            <td><%=leaves[i].to.toLocaleDateString('en-US')%></td>
+            <td><%=leaves[i].from.toLocaleDateString('en-GB')%></td>
+            <td><%=leaves[i].to.toLocaleDateString('en-GB')%></td>
             <td><%=leaves[i].days%></td>
             <td><%=leaves[i].leave_type%></td>
             <td><%=leaves[i].status%></td>

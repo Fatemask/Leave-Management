@@ -187,3 +187,14 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.leave{
+  font-size: 30px;
+  padding-left: 20px;
+  color: white;
+}
+
+.nav2{
+  background-color: #292b2c;
+  padding: 10px 0;
+}
