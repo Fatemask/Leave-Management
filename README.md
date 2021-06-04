@@ -26,8 +26,8 @@ The objective of Leave Management System is to develop a web based application u
 ## Steps to Run:
 1. Download zip file and Unzip file on your local server.
 2. Open Terminal into the project folder
-3. Type command Node seed.js
+3. Type command Node seeds.js
 4. Type command Node index.js
-5. Open Your browser put inside "http://localhost/Project Folder Name/"
+5. Open Your browser put inside "http://localhost/"
 6. You can see the login page
 
