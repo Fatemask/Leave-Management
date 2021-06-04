@@ -1,5 +1,11 @@
 # Leave-Management
 
+## Team Members
+1. Rohith- 31226
+2. Fatema- 31228
+3. Rutuja- 31229
+
+## Objective
 The objective of Leave Management System is to develop a web based application using which management of leave application and approval is done online. Faculty member of the institute can apply for leave and adjust their load directly from this application. HOD of their respective department can grant the leave application.
 
 ## Modules
